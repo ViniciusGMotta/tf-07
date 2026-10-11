@@ -29,3 +29,5 @@ def quick_sort(valores):
     # Monto a lista final: menores já ordenados, depois os iguais ao pivô,
     # depois os maiores já ordenados
     return menores_ordenados + iguais + maiores_ordenados
+
+print(quick_sort([7, 3, 9, 1, 5]))
